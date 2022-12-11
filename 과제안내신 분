@@ -1,0 +1,12 @@
+student=[False for i in range(30)]
+
+for i in range(len(student)-2):
+  sumit=int(input())
+  student[sumit-1]=True
+
+for i in range(30):
+  if student[i]==True:
+    continue
+
+  else:
+    print(i+1)
